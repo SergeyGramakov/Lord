@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Пример работы</title>
+
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="shadow-sm">
+            <nav class="width-center d-flex justify-content-between">
+
+                <div>
+                    <a href="#">
+                        <img src="images/Lord_logo.png" alt="Лого компании">
+                    </a>
+                </div>
+
+                <div>
+                    <p>
+                        Позвоните сейчас
+                        <br>
+                        <span class="font-size-tel color-blue"><a href="#">8&nbsp;495&nbsp;230&nbsp;21&nbsp;55</a></span>
+                    </p>
+                </div>
+
+                <div>
+                    <p class="d-inline-flex align-items-center">
+                        <span class="">&#129122;</span><a href="#">Записаться на консультацию<br>
+                        юриста</a>
+                    </p>
+                </div>
+
+            </nav>
+        </header>
+
+        <div class="background-layer mt-5"></div>
+
+        <main class="mt-2">
+
+             <div class="width-center d-flex justify-content-between align-items-center min-size color-white">
+
+                 <div class="mr-5 pt-5 text-break">
+                    <!-- <form id="regForm" action="#" method="post" enctype="text/plain"> -->
+                        <p class="color-grey">Списание долгов на основании ФЗ№ 127 «О нестостоятельности (банкротстве)»</p>
+                        <h1 class="font-weight-bold mb-2">Спишем ваши долги</h1>
+                        <h3>Пройдите тест и получите:</h3>
+                        <p class="font-size-bigger pt-3"><span class="arrow-before">Варианты списания вашего долга</span></p>
+                        <p class="font-size-bigger"><span class="arrow-before">Консультацию юриста по списанию долгов</span></p>
+                        <p class="font-size-bigger"><span class="arrow-before">Сроки и стоимость списания</span></p>
+                        <p class="font-size-bigger"><span class="arrow-before">Список необходимых документов <br><span class="pl-4"></span> для начала процедуры</span></p>
+                        <div class="d-inline-flex align-items-center">
+                            <button class="color-white btn btn-red mt-2 pt-3 pr-5 pb-3 pl-5" type="button" id="nextBtn" onclick="nextPrev(1)">
+                                Получить варианты списания <span class="arrow-after">&#129122;</span>
+                            </button>
+                        </div>
+                    <!-- </form>-->
+                </div>
+
+                <div>
+                    <img class="main-img mt-5" src="images/main.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="width-center text-break d-flex justify-content-between pb-5 margin-top">
+
+                <div class="width-container-small mr-3">
+                    <img class="mb-3" src="images/icon1.png" alt="">
+                    <h5>Опытные юристы</h5>
+                    <p class="mt-2">
+                        более 10 лет юридического стажа, более 5 лет в сфере банкротства
+                    </p>
+                </div>
+
+                <div class="width-container-small mr-3">
+                    <img class="mb-3" src="images/icon2.png" alt="">
+                    <h5>Офис в центре Москвы</h5>
+                    <p class="mt-2">
+                        5 минут от станции метро «Баррикадная», 7 минут от станций Пушкинская и Арбатская
+                    </p>
+                </div>
+
+                <div class="width-container-small mr-3">
+                    <img class="mb-3" src="images/icon3.png" alt="">
+                    <h5>Гарантии в договоре</h5>
+                    <p class="mt-2">
+                        работаем только по договору, в котором прописываем все варианты и гарантируем результат
+                    </p>
+                </div>
+
+                <div class="width-container-small">
+                    <img class="mb-3" src="images/icon4.png" alt="">
+                    <h5>На более 570 миллиардов</h5>
+                    <p class="mt-2">
+                        сохранили имущество клиентов и избавили от выплат по кредитам и займам
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="pt-5 pb-5">
+
+            <div class="width-center d-flex justify-content-start pt-5">
+
+                <div class="width-container">
+
+                    <h3><a href="#">+7&nbsp;495&nbsp;230&nbsp;21&nbsp;55</a></h3>
+                    <h3><a href="#">info@lordpartners.ru</a></h3>
+                    <p class="mt-3 color-grey">
+                        *отправляя формы на данном сайте, вы даете согласие на обработку персональных данных в соответствии с 152-ФЗ
+                    </p>
+
+                </div>
+
+                <div class="margin-left">
+                    <h4>Специализируемся на случаях:</h4>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <div class="group-1">
+                            <p><span>Полное списание долгов</span></p>
+                            <p><span>Частичное списание долгов</span></p>
+                            <p><span>Реструктуризация долгов</span></p>
+                        </div>
+
+                        <div class="group-2 ml-4">
+                            <p><span>Банкротство ИП</span></p>
+                            <p><span>Списание долгов по распискам</span></p>
+                            <p><span>Списание долгов по распискам</span></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="width-center d-flex justify-content-start mt-3">
+
+                <div>
+                    <p class="width-container font-weight-bold mt-3">
+                        При информационном содействии
+                    </p>
+                    <!-- грубая обёртка всех элементов одним тегом - для демонстрации кликабельности -->
+                    <a class="d-flex justify-content-start flex-wrap width-container" href="#">
+                        <img src="images/emblem1.png" class="mr-3 pt-2" alt="">
+                        <img src="images/emblem2.png" class="mr-3 pt-2" alt="">
+                        <img src="images/emblem3.png" class="mr-3 pt-2" alt="">
+                        <img src="images/emblem4.png" class="mt-2" alt="">
+                    </a>
+                </div>
+
+                <div class="margin-left mr-4">
+                    <div class="font-weight-bold">
+                        Больше о нас здесь
+                    </div>
+                    <!-- грубая обёртка всех элементов одним тегом - для демонстрации кликабельности -->
+                    <a class="d-flex justify-content-start flex-wrap" href="#">
+                        <img src="images/tg.png" class="mr-2" alt="">
+                        <img src="images/vk.png" class="mr-2" alt="">
+                        <img src="images/ok.png" class="mr-2" alt="">
+                        <img src="images/inst.png" alt="">
+                    </a>
+                </div>
+
+                <div class="ml-5">
+                    <p>г. Москва<br>Гранатный переулок 4, строение 2</p>
+                </div>
+
+            </div>
+
+            <div class="width-center mt-5">
+                <a href="#" class="mr-3 color-grey">ИНН 9702007211</a>
+                <a href="#" class="mr-3 color-grey">ОГРН 1197746584760</a>
+                <a href="#" class="mr-3 color-grey">ООО «ЮрКонсалт+»</a>
+                <a href="#" class="color-grey">Политика персональных данных</a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
